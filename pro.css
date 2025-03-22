@@ -1,0 +1,111 @@
+.main
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(249, 230, 178);
+}
+
+.headsection
+{  height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.header
+{  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1400px;
+}
+#l1
+{
+    background-color: rgb(29, 167, 252);
+    width: 400px;
+}
+.box2
+{
+    height: 200px;
+    width: 250px;
+   
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 50px;
+background-color: rgb(249, 230, 178);
+}
+
+
+.navsection
+{ width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+pre
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+
+}
+.navsection h1{
+    padding-left: 50px;
+}
+.reward
+{  margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 180px;
+}
+
+.small_reward
+{
+    background-color: white;
+    width: 840px;
+    
+    height: 60%;
+    border-radius: 10px;
+}
+.big_reward
+{ width: 400px;
+    
+    background-color: white;
+  
+    border-radius: 10px;
+    
+}
+
+.activation
+{
+  
+    width: 1420px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.summary
+{
+    
+    height: 300px;
+    width: 840px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+}
+.statistics
+{  width: 400px;
+    height: 300px;
+  
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: white;
+
+}
