@@ -390,3 +390,9 @@ blue box */
     background-color: rgb(228, 226, 226);
     border-radius: 4px;
 }
+#cancel
+{
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+}
