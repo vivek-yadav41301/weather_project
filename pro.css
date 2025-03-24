@@ -125,7 +125,7 @@ background-color: #D4F6FF;
 .activation
 {
   
-    width: 1420px;
+    width: 1385px;
     height: 400px;
    
     display: flex;
@@ -183,7 +183,7 @@ padding-left: 4px;
     align-items: center;
     justify-content: center;
    
-   
+  
 }
 
 .summary-img
@@ -289,7 +289,7 @@ blue box */
     
     font-family: Arial, Helvetica, sans-serif;
    
-    
+    width: 1400px
     
 }
 .space-reward
@@ -300,15 +300,16 @@ blue box */
 .reward-nav
 {
     display: flex;
-    justify-content: space-between;
-
-   gap: 600px;
-   margin-left: 64px;
+   
+width: 1400px;
+   gap: 662px;
+   margin-left: 55px;
    font-size: 24px;
    font-weight: bold;
+   
 }
 .staking-reward
-{
+{ 
    
     display: flex;
     align-items: center;
@@ -425,8 +426,12 @@ blue box */
     align-items: center;
     /* padding-left: 52px; */
   gap: 70px;
+ width: 1400px;
+
+
 
 }
+
 .Locked
 {
     display: flex;
