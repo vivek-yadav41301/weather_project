@@ -10,8 +10,27 @@
 <body class="main">
      
     
-    <header >
-       
+    <header  >
+      <div class="head-nav">
+        <div class="staking-offering"><h2>Staking offering</h2></div>
+        <div class="Locked">
+          <div><a href="#">Locked Staking</a>
+          </div>
+          <div>
+          Defi Staking
+          </div>
+      </div>
+        <div class="active">
+          <select name="active" id="">
+            <option value="active">Active</option>
+          </select>
+        </div>
+        <div class="Wallet">
+          <div ><h2>Staking Wallet</h2></div>
+          <div><select name="" id=""><option value="USDT">USDT</option></select></div>
+        </div>
+      </div>
+      
           <div class="header">
             
         <div class="headsection">
@@ -21,12 +40,12 @@
           <div>
             <p><b>Cardano</b></p>
            <div>
-            <p>ADA</p>
+            <p class="gray">ADA</p>
             
            </div> 
           </div>
           <div>
-            <p>APY</p>
+            <p class="gray">APY</p>
             <p><b>8.65%</b></p>
           </div>
 
@@ -35,11 +54,11 @@
         <div class="ada">
         <div>
           <p><b>30.45%</b></p>
-          <p>Annual Percentage Yield</p>
+          <p class="gray">Annual Percentage Yield</p>
         </div>
         <div>
           <p><b>100 ADA</b></p>
-          <p>Minimum Stake</p>
+          <p class="gray">Minimum Stake</p>
         </div>
      
 
@@ -55,9 +74,9 @@
              
               <div>
                 <p><b>Ontology</b></p>
-                <p>ONT</p></div>
+                <p class="gray">ONT</p></div>
               <div>
-                <p>APY</p>
+                <p class="gray">APY</p>
                 <p><b>8.65%</b></p>
               </div>
     
@@ -66,7 +85,7 @@
             <div>
              <div class="min-stake">
                <div >
-                <p>Min. Stake</p>
+                <p class="gray">Min. Stake</p>
                 <p><b>100 ONT</b></p>
               </div>
               <button class="but1">Stake</button>
@@ -79,9 +98,9 @@
            
             <div>
               <p><b>Polkadot</b></p>
-              <p>DOT</p></div>
+              <p class="gray">DOT</p></div>
             <div>
-              <p>APY</p>
+              <p class="gray">APY</p>
               <p><b>24.50%</b></p>
             </div>
   
@@ -90,7 +109,7 @@
           <div>
            <div class="min-stake">
              <div >
-              <p>Min. Stake</p>
+              <p class="gray">Min. Stake</p>
               <p><b>5 DOT</b></p>
             </div>
             <button class="but1">Stake</button>
@@ -105,9 +124,9 @@
              
               <div>
                 <p><b>Solona</b></p>
-                <p>SOL</p></div>
+                <p class="gray">SOL</p></div>
               <div>
-                <p>APY</p>
+                <p class="gray">APY</p>
                 <p><b>12,66%</b></p>
               </div>
     
@@ -116,7 +135,7 @@
             <div>
              <div class="min-stake">
                <div >
-                <p>Min. Stake</p>
+                <p class="gray">Min. Stake</p>
                 <p><b>8 SOL</b></p>
               </div>
               <button class="but1">Stake</button>
@@ -131,9 +150,9 @@
              
               <div>
                 <p><b>XRP</b></p>
-                <p>SOL</p></div>
+                <p class="gray">SOL</p></div>
               <div>
-                <p>APY</p>
+                <p class="gray">APY</p>
                 <p><b>15.47%</b></p>
               </div>
     
@@ -142,7 +161,7 @@
             <div>
              <div class="min-stake">
                <div >
-                <p>Min. Stake</p>
+                <p class="gray">Min. Stake</p>
                 <p><b>10 XRP</b></p>
               </div>
               <button class="but1">Stake</button>
@@ -191,8 +210,8 @@
   <div class="reward space-reward">
      <div class="small_reward">
        <div class="Staked">
-          <div> <p>Staked Assets</p>
-          <div class="gray-box">
+          <div > <p class="gray">Staked Assets</p>
+          <div class="gray-box bold">
              Ontology
          </div>
 
@@ -201,17 +220,17 @@
      
      
 
-       <div>
-           <p>Stake Amount</p>
-        <div class="gray-box">300025.45 ONT</div>
+       <div >
+           <p class="gray">Stake Amount</p>
+        <div class="gray-box bold">300025.45 ONT</div>
       </div>
       <div>
-           <p>Stake Period</p>
-      <div class="gray-box">6 Month</div>
+           <p class="gray">Stake Period</p>
+      <div class="gray-box bold">6 Month</div>
       </div>
      <div>
-      <p>Estimate reward</p>
-      <div class="gray-box">400025015 ONT</div>
+      <p class="gray">Estimate reward</p>
+      <div class="gray-box bold">400025015 ONT</div>
     </div>
     </div>
     
@@ -239,7 +258,7 @@
         <h4>3D:4H:15 MIN</h4>
       </div>
     </div>
-    <div class="big_reward-flex">
+    <div class="big_reward-flex" id="claim">
       Claim Rewards
     </div>
   
@@ -254,51 +273,52 @@
   <div class="activation">
     
     <div class="summary">
-      <div class="summary1"><div class="colm-first"><div class="colm1">
-        <div>Select Asset
+      <div class="summary1">
+        <div class="colm-first"><div class="colm1">
+        <div class="gray">Select Asset
           
         </div>
-        <div><select name="" id="">
+        <div><select name="" id="" class="bold">
           <option value="Ontology">Ontology</option>
         </select></div>
       </div>
       <div class="colm1">
-        <div>Lock-Up Periods
+        <div class="gray">Lock-Up Periods
           
         </div>
-        <div><select name="" id="">
+        <div><select name="" id="" class="bold">
           <option value="6-Month">6 MONTH</option>
         </select></div>
       </div>
       <div class="colm1">
-        <div>Amount to Stake
+        <div class="gray">Amount to Stake
           
         </div>
-        <div><select name="" id="">
+        <div><select name="" id="" class="bold">
           <option value="Ontology">30035.64 ONT</option>
         </select></div>
       </div>
       <div class="colm1">
-        <div>Stake Validator
+        <div class="gray">Stake Validator
           
         </div>
-        <div><select name="" id="">
+        <div><select name="" id="" class="bold">
           <option value="Ontology">PoS Blockchain</option>
         </select></div>
       </div>
       <div class="colm1">
-        <div>Reward Claiming
+        <div class="gray">Reward Claiming
           
         </div>
-        <div><select name="" id="">
+        <div><select name="" id="" class="bold">
           <option value="Ontology">6 Month</option>
         </select></div>
       </div>
       <div class="colm1">
-        <div>Select Asset
+        <div class="gray">Select Asset
           
         </div>
-        <div><select name="" id="">
+        <div ><select name="" id="" class="bold">
           <option value="Ontology">Ontology</option>
         </select></div>
       </div>
@@ -309,27 +329,27 @@
         
         <i class="fa-solid fa-clone"></i>
       </div>
-        <div class="col2">
-          <div>Stake Date</div>
+        <div class="col2 gray">
+          <div class="gray">Stake Date</div>
           <div>2024-02-15-05:32</div>
         </div>
-        <div class="col2">
-          <div>Intrest Period</div>
+        <div class="col2 gray">
+          <div >Intrest Period</div>
           <div>6 Month</div>
         </div>
-        <div class="col2">
+        <div class="col2 gray">
           <div>Stake End Date</div>
           <div>2024-08-15-05:32</div>
         </div>
-        <div class="col2">
+        <div class="col2 gray">
           <div>Redemption Date</div>
           <div>2024-08-20</div>
         </div>
-        <div class="col2">
+        <div class="col2 gray">
           <div>Est.APY</div>
           <div>25.12%</div>
         </div>
-        <div class="col2">
+        <div class="col2 gray">
           <div>Estimated Intrest</div>
           <div>4025.506 ONT</div>
         </div>
@@ -351,7 +371,7 @@
 <div class="main-Statistics">
     <div class="Intrest spaces">
       <h2>Intrest Statistics</h2>
-      <p>D  W  M  Y</p>
+      <p>D  W  <span class="blue">M</span>  Y</p>
 
     </div>
     <div class="statistics  spaces">
