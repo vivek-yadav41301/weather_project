@@ -1,12 +1,14 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+  
 }
 .main
 {
     height: 100vh;
     width: 100vw;
-    background-color:#D4F6FF
+    background-color:#D4F6FF;
+    
 }
 
 .headsection
@@ -15,7 +17,7 @@
     background-color: white;
     border-radius: 10px;
    
-
+    box-shadow: 0px 0px 2px black;
 
      
 }
@@ -28,6 +30,7 @@
     margin-top: 10px;
    
 }
+
  button
 {
    
@@ -37,6 +40,7 @@
     color: white;
     border-radius: 5px;
     border: none;
+   
 }
 .ada{
 margin-left: 30px;
@@ -92,10 +96,11 @@ background-color: #D4F6FF;
     justify-content: space-evenly;
     
     height: 180px;
+    
 }
 
 .small_reward
-{
+{box-shadow: 0px 0px 2px black;
     background-color: white;
     width: 840px;
     
@@ -104,7 +109,7 @@ background-color: #D4F6FF;
 }
 .big_reward
 { width: 400px;
-    
+    box-shadow: 0px 0px 2px black;
     background-color: white;
   
     border-radius: 10px;
@@ -134,7 +139,7 @@ background-color: #D4F6FF;
 }
 .summary
 {
-    
+    box-shadow: 0px 0px 2px black;
     height: 300px;
     width: 840px;
     height: 350px;
@@ -146,7 +151,7 @@ background-color: #D4F6FF;
     height: 300px;
 
     border-radius: 10px;
-    
+    box-shadow: 0px 0px 2px black;
     background-color: white;
    
     display: flex;
